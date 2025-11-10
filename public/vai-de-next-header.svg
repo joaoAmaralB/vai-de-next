@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" fill="none">
+  <!-- Ícone reduzido -->
+  <rect x="0" y="8" width="48" height="48" rx="12" fill="black"></rect>
+  <path d="M14 44L22 24H27L36 44H31L26 33L21 44H14Z" fill="white"></path>
+  <circle cx="36" cy="24" r="3" fill="#22c55e"></circle>
+
+  <!-- Texto maior -->
+  <text x="64" y="45" font-family="Inter, sans-serif" font-size="30" font-weight="700">
+    <tspan fill="#000000">Vai de </tspan><tspan fill="#22c55e">Next</tspan>
+  </text>
+</svg>
