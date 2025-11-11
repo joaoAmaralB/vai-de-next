@@ -14,7 +14,7 @@ export default function Home() {
       <div className="flex flex-wrap gap-4 items-center justify-center w-full">
         {
           topics.map((topic) => (
-            <Card key={`${topic.topic}-key`} className="w-1/4 h-52 p-4">
+            <Card key={`${topic.topic}-key`} className="w-1/4 h-fit p-4">
               <CardHeader className="flex items-center p-0">
                 <div className="w-8 h-8 p-1.5 rounded-lg text-white" style={{ backgroundColor: topic.color }}>
                   {topic.icon}
